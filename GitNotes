@@ -1,1 +1,23 @@
 # Git help
+
+For example, you can get the manpage help for the git config command by running this:
+$ git help config
+
+# You can view all of your settings and where they are coming from using:
+$ git config --list --show-origin
+
+# The first thing you should do when you install Git is to set your user name and email address
+$ git config --global user.name "John Doe"
+$ git config --global user.email johndoe@example.com
+
+# If you want to use a different text editor, such as Emacs, you can do the following:
+$ git config --global core.editor emacs
+
+# 
+$ git config --global core.editor "'C:/Program Files/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"
+
+# To set main as the default branch name do:
+$ git config --global init.defaultBranch main
+
+#If you want to check your configuration settings, you can use the git config --list command to list all the settings Git can find at that point:
+$ git config --list
