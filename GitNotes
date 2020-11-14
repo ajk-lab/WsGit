@@ -21,3 +21,5 @@ $ git config --global init.defaultBranch main
 
 #If you want to check your configuration settings, you can use the git config --list command to list all the settings Git can find at that point:
 $ git config --list
+
+# force clone
